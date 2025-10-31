@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+   background-color: #FFFFFF;
+}
+
+/* Navigation Section */
+
+.navigation-section {
+    align-items: center;
+    background-color: #F07E26;
+    display: flex;
+    height: 8rem;
+    padding: 5.5rem 5.5rem;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 7rem;
+}
+
+.navigation-list {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+}
+
+.navigation-link {
+    color: #FFFFFF;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+/* Hero Section */ 
+
+.primary-section {
+    background-color: #F07E26;
+    padding: 2rem 0;
+}
+
+.primary {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20rem;
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.primary-heading {
+    color: #FFFFFF;
+    font-family: "Poiret One", sans-serif;
+    font-size: 7rem;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+.primary-description {
+    color: #FFFFFF;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.primary-img {
+    width: 100%;
+}
+
+.btn-full {
+    background-color: #F07E26;
+    border-radius: 10px;
+    border: 2px #FFFFFF solid;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 1.3rem;
+    margin-right: 1rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+.btn-outline {
+    background-color: #E9A26C;
+    border-radius: 10px;
+    border: 2px #E9A26C solid;
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 1.3rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+
