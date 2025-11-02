@@ -10,6 +10,7 @@ html {
 
 body {
    background-color: #FFFFFF;
+   font-family: "Instrument Sans", sans-serif;
 }
 
 /* Navigation Section */
@@ -19,12 +20,12 @@ body {
     background-color: #F07E26;
     display: flex;
     height: 8rem;
-    padding: 5.5rem 5.5rem;
+    padding: 5rem 2rem;
     justify-content: space-between;
 }
 
 .logo {
-    height: 7rem;
+    height: 6rem;
 }
 
 .navigation-list {
@@ -35,24 +36,23 @@ body {
 
 .navigation-link {
     color: #FFFFFF;
-    font-family: "Instrument Sans", sans-serif;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-decoration: none;
 }
 
-/* Hero Section */ 
+/* Primary Section */ 
 
 .primary-section {
     background-color: #F07E26;
-    padding: 2rem 0;
+    padding: 5rem 0;
 }
 
 .primary {
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 20rem;
+    gap: 15rem;
     max-width: 100rem;
     margin: 0 auto;
     padding: 0 3rem;
@@ -60,15 +60,14 @@ body {
 
 .primary-heading {
     color: #FFFFFF;
-    font-family: "Poiret One", sans-serif;
-    font-size: 7rem;
+    font-size: 6rem;
+    font-weight: 700;
     line-height: 1;
     margin-bottom: 2rem;
 }
 
 .primary-description {
     color: #FFFFFF;
-    font-family: "Instrument Sans", sans-serif;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 2rem;
@@ -84,7 +83,6 @@ body {
     border: 2px #FFFFFF solid;
     color: #FFFFFF;
     display: inline-block;
-    font-family: "Instrument Sans", sans-serif;
     font-size: 1.3rem;
     margin-right: 1rem;
     padding: 1rem 1rem;
@@ -97,10 +95,142 @@ body {
     border: 2px #E9A26C solid;
     color: #FFFFFF;
     display: inline-block;
-    font-family: "Instrument Sans", sans-serif;
     font-size: 1.3rem;
     padding: 1rem 1rem;
     text-decoration: none;
 }
+
+/* Secondary Section */
+
+.secondary-section {
+    padding: 6rem 0;
+}
+
+.secondary {
+    max-width: 100rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.secondary-subheading {
+    color: #000000;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.secondary-heading {
+    color: #000000;
+    font-size: 6rem;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 5rem;
+}
+
+.feature {
+    display: grid;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    max-width: 120rem;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+    padding: 0 13rem;
+}
+
+.feature-img-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-img {
+    width: 100%;
+}
+
+.attribute {
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.feature-no {
+    color: #FDC9A1;
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+.feature-heading {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.feature-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+/* Footer Section */
+
+.footer {
+    color: #FFFFFF;
+    background-color: #F07E26;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10rem;
+    margin: 0 auto;
+    padding: 4rem 4rem;
+}
+
+.logo-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.footer-contact {
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.address {
+    margin-bottom: 1rem;
+}
+
+.email {
+    color: #FFFFFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.footer-heading {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.footer-navigation {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+}
+
+.footer-link {
+    color: #FFFFFF;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+
+
 
 
